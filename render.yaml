@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: battleroute-server
+    runtime: node
+    rootDir: server
+    buildCommand: npm install
+    startCommand: npm start
+    healthCheckPath: /health
+    envVars:
+      - key: ALLOWED_ORIGINS
+        value: https://battleroute.vercel.app

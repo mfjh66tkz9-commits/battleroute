@@ -1,0 +1,2278 @@
+{
+  "version": "1.0",
+  "locale": "fr-FR",
+  "game": "battleroute",
+  "source_note": "Questions originales pour Battleroute; pas de contenu d’éditeurs d’examens.",
+  "themes": [
+    "circulation",
+    "conducteur",
+    "route",
+    "autres_usagers",
+    "reglementation",
+    "mecanique_equipements",
+    "securite",
+    "environnement",
+    "premiers_secours"
+  ],
+  "questions": [
+    {
+      "id": "br-001",
+      "theme": "circulation",
+      "difficulty": 1,
+      "question": "En agglomération, sauf panneau contraire, quelle est la vitesse maximale autorisée ?",
+      "choices": [
+        {
+          "key": "A",
+          "text": "30 km/h"
+        },
+        {
+          "key": "B",
+          "text": "50 km/h"
+        },
+        {
+          "key": "C",
+          "text": "70 km/h"
+        },
+        {
+          "key": "D",
+          "text": "90 km/h"
+        }
+      ],
+      "answer": "B",
+      "explanation": "En agglomération, la limite par défaut est 50 km/h.",
+      "image": "/images/agglo-entree.png",
+      "tags": [
+        "vitesse"
+      ]
+    },
+    {
+      "id": "br-002",
+      "theme": "circulation",
+      "difficulty": 1,
+      "question": "Sur autoroute, par temps sec, la vitesse maximale pour une voiture est de :",
+      "choices": [
+        {
+          "key": "A",
+          "text": "110 km/h"
+        },
+        {
+          "key": "B",
+          "text": "120 km/h"
+        },
+        {
+          "key": "C",
+          "text": "130 km/h"
+        },
+        {
+          "key": "D",
+          "text": "150 km/h"
+        }
+      ],
+      "answer": "C",
+      "explanation": "130 km/h sur autoroute par temps sec, hors jeunes conducteurs.",
+      "image": "/images/autoroute.png",
+      "tags": [
+        "vitesse",
+        "autoroute"
+      ]
+    },
+    {
+      "id": "br-003",
+      "theme": "circulation",
+      "difficulty": 2,
+      "question": "Sur autoroute, sous la pluie, la vitesse maximale devient :",
+      "choices": [
+        {
+          "key": "A",
+          "text": "110 km/h"
+        },
+        {
+          "key": "B",
+          "text": "100 km/h"
+        },
+        {
+          "key": "C",
+          "text": "120 km/h"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Par temps de pluie, on passe de 130 à 110 km/h sur autoroute.",
+      "image": "/images/limite-110.png",
+      "tags": [
+        "vitesse",
+        "meteo"
+      ]
+    },
+    {
+      "id": "br-004",
+      "theme": "circulation",
+      "difficulty": 2,
+      "question": "Si la visibilité est inférieure à 50 mètres, la vitesse max est de :",
+      "choices": [
+        {
+          "key": "A",
+          "text": "30 km/h"
+        },
+        {
+          "key": "B",
+          "text": "50 km/h"
+        },
+        {
+          "key": "C",
+          "text": "70 km/h"
+        },
+        {
+          "key": "D",
+          "text": "80 km/h"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Visibilité < 50 m : 50 km/h maximum, sur toutes les routes.",
+      "image": "/images/limite-50.png",
+      "tags": [
+        "vitesse",
+        "brouillard"
+      ]
+    },
+    {
+      "id": "br-005",
+      "theme": "circulation",
+      "difficulty": 1,
+      "question": "À une intersection sans panneau ni feu, qui a la priorité ?",
+      "choices": [
+        {
+          "key": "A",
+          "text": "Le véhicule venant de gauche"
+        },
+        {
+          "key": "B",
+          "text": "Le véhicule venant de droite"
+        },
+        {
+          "key": "C",
+          "text": "Le plus rapide"
+        },
+        {
+          "key": "D",
+          "text": "Le plus gros"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Sans signalisation, c'est la priorité à droite.",
+      "image": "/images/intersection-priorite-droite.png",
+      "tags": [
+        "priorite"
+      ]
+    },
+    {
+      "id": "br-006",
+      "theme": "circulation",
+      "difficulty": 1,
+      "question": "Pour dépasser une voiture, on la double généralement par :",
+      "choices": [
+        {
+          "key": "A",
+          "text": "La droite"
+        },
+        {
+          "key": "B",
+          "text": "La gauche"
+        },
+        {
+          "key": "C",
+          "text": "Le côté le plus large"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Le dépassement se fait normalement par la gauche.",
+      "image": "/images/interdiction-depasser.png",
+      "tags": [
+        "depassement"
+      ]
+    },
+    {
+      "id": "br-007",
+      "theme": "circulation",
+      "difficulty": 2,
+      "question": "Quand peut-on dépasser par la droite ?",
+      "choices": [
+        {
+          "key": "A",
+          "text": "Jamais"
+        },
+        {
+          "key": "B",
+          "text": "Quand le véhicule devant tourne à gauche"
+        },
+        {
+          "key": "C",
+          "text": "Quand on est pressé"
+        },
+        {
+          "key": "D",
+          "text": "Sur autoroute si la voie de gauche est lente"
+        }
+      ],
+      "answer": "B",
+      "explanation": "On dépasse par la droite un véhicule qui a signalé tourner à gauche.",
+      "image": "/images/interdiction-depasser.png",
+      "tags": [
+        "depassement"
+      ]
+    },
+    {
+      "id": "br-008",
+      "theme": "circulation",
+      "difficulty": 1,
+      "question": "Au feu orange fixe, on doit :",
+      "choices": [
+        {
+          "key": "A",
+          "text": "Accélérer"
+        },
+        {
+          "key": "B",
+          "text": "S'arrêter, sauf si c'est dangereux"
+        },
+        {
+          "key": "C",
+          "text": "Klaxonner"
+        },
+        {
+          "key": "D",
+          "text": "Continuer normalement"
+        }
+      ],
+      "answer": "B",
+      "explanation": "L'orange fixe impose l'arrêt, sauf si freiner serait dangereux.",
+      "image": "/images/feu-orange.png",
+      "tags": [
+        "feux"
+      ]
+    },
+    {
+      "id": "br-009",
+      "theme": "circulation",
+      "difficulty": 1,
+      "question": "Dans un giratoire signalé « Cédez le passage », qui est prioritaire ?",
+      "choices": [
+        {
+          "key": "A",
+          "text": "Les véhicules qui entrent"
+        },
+        {
+          "key": "B",
+          "text": "Les véhicules déjà dans l'anneau"
+        },
+        {
+          "key": "C",
+          "text": "Les camions"
+        }
+      ],
+      "answer": "B",
+      "explanation": "On cède le passage aux véhicules déjà engagés dans le rond-point.",
+      "image": "/images/giratoire.png",
+      "tags": [
+        "priorite",
+        "giratoire"
+      ]
+    },
+    {
+      "id": "br-010",
+      "theme": "circulation",
+      "difficulty": 2,
+      "question": "Sur une chaussée à plusieurs voies, on circule de préférence :",
+      "choices": [
+        {
+          "key": "A",
+          "text": "Sur la voie de gauche"
+        },
+        {
+          "key": "B",
+          "text": "Sur la voie la plus à droite"
+        },
+        {
+          "key": "C",
+          "text": "Au milieu"
+        },
+        {
+          "key": "D",
+          "text": "Où on veut"
+        }
+      ],
+      "answer": "B",
+      "explanation": "On garde la droite et on n'utilise la gauche que pour dépasser.",
+      "image": null,
+      "tags": [
+        "placement"
+      ]
+    },
+    {
+      "id": "br-011",
+      "theme": "circulation",
+      "difficulty": 3,
+      "question": "La bande d'arrêt d'urgence sur autoroute peut servir :",
+      "choices": [
+        {
+          "key": "A",
+          "text": "À dépasser"
+        },
+        {
+          "key": "B",
+          "text": "En cas de panne ou d'urgence"
+        },
+        {
+          "key": "C",
+          "text": "À faire une pause"
+        },
+        {
+          "key": "D",
+          "text": "À attendre un ami"
+        }
+      ],
+      "answer": "B",
+      "explanation": "La BAU est réservée aux arrêts d'urgence.",
+      "image": null,
+      "tags": [
+        "autoroute"
+      ]
+    },
+    {
+      "id": "br-012",
+      "theme": "circulation",
+      "difficulty": 3,
+      "question": "Marche arrière sur autoroute : c'est...",
+      "choices": [
+        {
+          "key": "A",
+          "text": "Autorisé si on a raté sa sortie"
+        },
+        {
+          "key": "B",
+          "text": "Interdit"
+        },
+        {
+          "key": "C",
+          "text": "Autorisé sur la BAU"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Marche arrière et demi-tour sont interdits sur autoroute.",
+      "image": "/images/autoroute.png",
+      "tags": [
+        "autoroute"
+      ]
+    },
+    {
+      "id": "br-013",
+      "theme": "conducteur",
+      "difficulty": 1,
+      "question": "Le taux d'alcool max dans le sang pour un conducteur confirmé est de :",
+      "choices": [
+        {
+          "key": "A",
+          "text": "0,2 g/l"
+        },
+        {
+          "key": "B",
+          "text": "0,5 g/l"
+        },
+        {
+          "key": "C",
+          "text": "0,8 g/l"
+        },
+        {
+          "key": "D",
+          "text": "1 g/l"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Limite : 0,5 g/l de sang (0,25 mg/l d'air expiré).",
+      "image": null,
+      "tags": [
+        "alcool"
+      ]
+    },
+    {
+      "id": "br-014",
+      "theme": "conducteur",
+      "difficulty": 2,
+      "question": "Pour un jeune conducteur en permis probatoire, le taux max est de :",
+      "choices": [
+        {
+          "key": "A",
+          "text": "0,2 g/l"
+        },
+        {
+          "key": "B",
+          "text": "0,5 g/l"
+        },
+        {
+          "key": "C",
+          "text": "0,3 g/l"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Permis probatoire : 0,2 g/l, soit pratiquement zéro verre.",
+      "image": null,
+      "tags": [
+        "alcool",
+        "probatoire"
+      ]
+    },
+    {
+      "id": "br-015",
+      "theme": "conducteur",
+      "difficulty": 1,
+      "question": "Pour éliminer l'alcool plus vite, le plus efficace est :",
+      "choices": [
+        {
+          "key": "A",
+          "text": "Boire un café"
+        },
+        {
+          "key": "B",
+          "text": "Prendre une douche froide"
+        },
+        {
+          "key": "C",
+          "text": "Attendre"
+        },
+        {
+          "key": "D",
+          "text": "Manger du sucre"
+        }
+      ],
+      "answer": "C",
+      "explanation": "Seul le temps élimine l'alcool : café et douche n'y changent rien.",
+      "image": null,
+      "tags": [
+        "alcool"
+      ]
+    },
+    {
+      "id": "br-016",
+      "theme": "conducteur",
+      "difficulty": 1,
+      "question": "Tenir son téléphone en main en conduisant est :",
+      "choices": [
+        {
+          "key": "A",
+          "text": "Autorisé à l'arrêt au feu"
+        },
+        {
+          "key": "B",
+          "text": "Interdit"
+        },
+        {
+          "key": "C",
+          "text": "Autorisé en kit seulement si court"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Téléphone tenu en main interdit, même arrêté au feu en circulation.",
+      "image": null,
+      "tags": [
+        "telephone"
+      ]
+    },
+    {
+      "id": "br-017",
+      "theme": "conducteur",
+      "difficulty": 2,
+      "question": "Les oreillettes et écouteurs en conduisant sont :",
+      "choices": [
+        {
+          "key": "A",
+          "text": "Autorisés"
+        },
+        {
+          "key": "B",
+          "text": "Interdits"
+        },
+        {
+          "key": "C",
+          "text": "Autorisés d'un seul côté"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Tout dispositif dans l'oreille est interdit au volant.",
+      "image": null,
+      "tags": [
+        "telephone"
+      ]
+    },
+    {
+      "id": "br-018",
+      "theme": "conducteur",
+      "difficulty": 1,
+      "question": "Sur un long trajet, il est conseillé de faire une pause toutes les :",
+      "choices": [
+        {
+          "key": "A",
+          "text": "30 minutes"
+        },
+        {
+          "key": "B",
+          "text": "2 heures"
+        },
+        {
+          "key": "C",
+          "text": "5 heures"
+        },
+        {
+          "key": "D",
+          "text": "Jamais"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Une pause environ toutes les 2 heures limite la fatigue.",
+      "image": null,
+      "tags": [
+        "fatigue"
+      ]
+    },
+    {
+      "id": "br-019",
+      "theme": "conducteur",
+      "difficulty": 2,
+      "question": "Un bâillement répété au volant signale :",
+      "choices": [
+        {
+          "key": "A",
+          "text": "Un besoin de vitesse"
+        },
+        {
+          "key": "B",
+          "text": "De la fatigue"
+        },
+        {
+          "key": "C",
+          "text": "Rien de particulier"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Bâillements, yeux lourds : arrêtez-vous et reposez-vous.",
+      "image": null,
+      "tags": [
+        "fatigue"
+      ]
+    },
+    {
+      "id": "br-020",
+      "theme": "conducteur",
+      "difficulty": 2,
+      "question": "Un médicament avec un pictogramme triangle rouge niveau 3 signifie :",
+      "choices": [
+        {
+          "key": "A",
+          "text": "Conduite déconseillée légèrement"
+        },
+        {
+          "key": "B",
+          "text": "Ne pas conduire"
+        },
+        {
+          "key": "C",
+          "text": "Aucun effet"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Niveau 3 (rouge) : ne pas conduire.",
+      "image": null,
+      "tags": [
+        "medicaments"
+      ]
+    },
+    {
+      "id": "br-021",
+      "theme": "conducteur",
+      "difficulty": 3,
+      "question": "Avec la vitesse, le champ de vision du conducteur :",
+      "choices": [
+        {
+          "key": "A",
+          "text": "S'élargit"
+        },
+        {
+          "key": "B",
+          "text": "Se rétrécit"
+        },
+        {
+          "key": "C",
+          "text": "Ne change pas"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Plus on va vite, plus le champ visuel se rétrécit.",
+      "image": "/images/limite-130.png",
+      "tags": [
+        "vision"
+      ]
+    },
+    {
+      "id": "br-022",
+      "theme": "conducteur",
+      "difficulty": 3,
+      "question": "Le temps de réaction moyen d'un conducteur attentif est d'environ :",
+      "choices": [
+        {
+          "key": "A",
+          "text": "0,1 seconde"
+        },
+        {
+          "key": "B",
+          "text": "1 seconde"
+        },
+        {
+          "key": "C",
+          "text": "3 secondes"
+        },
+        {
+          "key": "D",
+          "text": "5 secondes"
+        }
+      ],
+      "answer": "B",
+      "explanation": "On compte environ 1 seconde de réaction, plus si fatigué.",
+      "image": null,
+      "tags": [
+        "reaction"
+      ]
+    },
+    {
+      "id": "br-023",
+      "theme": "route",
+      "difficulty": 1,
+      "question": "Un panneau triangulaire à bord rouge indique :",
+      "choices": [
+        {
+          "key": "A",
+          "text": "Une interdiction"
+        },
+        {
+          "key": "B",
+          "text": "Un danger"
+        },
+        {
+          "key": "C",
+          "text": "Une obligation"
+        },
+        {
+          "key": "D",
+          "text": "Une information"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Triangle à bord rouge = panneau de danger.",
+      "image": "/images/danger-virage.png",
+      "tags": [
+        "panneaux"
+      ]
+    },
+    {
+      "id": "br-024",
+      "theme": "route",
+      "difficulty": 1,
+      "question": "Un panneau rond à fond bleu indique :",
+      "choices": [
+        {
+          "key": "A",
+          "text": "Une obligation"
+        },
+        {
+          "key": "B",
+          "text": "Un danger"
+        },
+        {
+          "key": "C",
+          "text": "Une interdiction"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Rond bleu = obligation.",
+      "image": "/images/obligation-droite.png",
+      "tags": [
+        "panneaux"
+      ]
+    },
+    {
+      "id": "br-025",
+      "theme": "route",
+      "difficulty": 1,
+      "question": "Un panneau octogonal rouge « STOP » impose :",
+      "choices": [
+        {
+          "key": "A",
+          "text": "De ralentir"
+        },
+        {
+          "key": "B",
+          "text": "Un arrêt complet"
+        },
+        {
+          "key": "C",
+          "text": "De klaxonner"
+        },
+        {
+          "key": "D",
+          "text": "De céder si quelqu'un arrive"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Au STOP, arrêt complet obligatoire, même si la voie est libre.",
+      "image": "/images/stop.png",
+      "tags": [
+        "panneaux",
+        "priorite"
+      ]
+    },
+    {
+      "id": "br-026",
+      "theme": "route",
+      "difficulty": 1,
+      "question": "Une ligne blanche continue au milieu de la route :",
+      "choices": [
+        {
+          "key": "A",
+          "text": "Peut être franchie pour dépasser"
+        },
+        {
+          "key": "B",
+          "text": "Ne doit pas être franchie"
+        },
+        {
+          "key": "C",
+          "text": "Est une suggestion"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Ligne continue : interdiction de la franchir ou chevaucher.",
+      "image": "/images/interdiction-depasser.png",
+      "tags": [
+        "marquage"
+      ]
+    },
+    {
+      "id": "br-027",
+      "theme": "route",
+      "difficulty": 2,
+      "question": "Une ligne discontinue à traits longs et rapprochés annonce :",
+      "choices": [
+        {
+          "key": "A",
+          "text": "Une ligne continue"
+        },
+        {
+          "key": "B",
+          "text": "Un parking"
+        },
+        {
+          "key": "C",
+          "text": "Une piste cyclable"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Une ligne de dissuasion/annonce prévient l'arrivée d'une ligne continue.",
+      "image": null,
+      "tags": [
+        "marquage"
+      ]
+    },
+    {
+      "id": "br-028",
+      "theme": "route",
+      "difficulty": 2,
+      "question": "Un marquage jaune au sol indique souvent :",
+      "choices": [
+        {
+          "key": "A",
+          "text": "Un marquage temporaire de chantier"
+        },
+        {
+          "key": "B",
+          "text": "Une route privée"
+        },
+        {
+          "key": "C",
+          "text": "Une voie rapide"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Le marquage jaune signale des travaux ou une signalisation temporaire.",
+      "image": null,
+      "tags": [
+        "marquage",
+        "travaux"
+      ]
+    },
+    {
+      "id": "br-029",
+      "theme": "route",
+      "difficulty": 2,
+      "question": "Un panneau losange jaune signifie :",
+      "choices": [
+        {
+          "key": "A",
+          "text": "Route prioritaire"
+        },
+        {
+          "key": "B",
+          "text": "Fin d'autoroute"
+        },
+        {
+          "key": "C",
+          "text": "Danger"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Le losange jaune signale une route à caractère prioritaire.",
+      "image": "/images/route-prioritaire.png",
+      "tags": [
+        "panneaux",
+        "priorite"
+      ]
+    },
+    {
+      "id": "br-030",
+      "theme": "route",
+      "difficulty": 3,
+      "question": "Un panneau triangle pointe en bas, bord rouge, signifie :",
+      "choices": [
+        {
+          "key": "A",
+          "text": "Stop"
+        },
+        {
+          "key": "B",
+          "text": "Cédez le passage"
+        },
+        {
+          "key": "C",
+          "text": "Sens interdit"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Triangle inversé = cédez le passage.",
+      "image": "/images/cedez-le-passage.png",
+      "tags": [
+        "panneaux",
+        "priorite"
+      ]
+    },
+    {
+      "id": "br-031",
+      "theme": "route",
+      "difficulty": 2,
+      "question": "Un panneau rond rouge avec une barre blanche horizontale signifie :",
+      "choices": [
+        {
+          "key": "A",
+          "text": "Sens interdit"
+        },
+        {
+          "key": "B",
+          "text": "Stationnement interdit"
+        },
+        {
+          "key": "C",
+          "text": "Fin de limitation"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Rond rouge barre blanche = sens interdit.",
+      "image": "/images/sens-interdit.png",
+      "tags": [
+        "panneaux"
+      ]
+    },
+    {
+      "id": "br-032",
+      "theme": "autres_usagers",
+      "difficulty": 1,
+      "question": "Pour dépasser un cycliste hors agglomération, l'écart latéral minimum est de :",
+      "choices": [
+        {
+          "key": "A",
+          "text": "50 cm"
+        },
+        {
+          "key": "B",
+          "text": "1 m"
+        },
+        {
+          "key": "C",
+          "text": "1,5 m"
+        },
+        {
+          "key": "D",
+          "text": "3 m"
+        }
+      ],
+      "answer": "C",
+      "explanation": "Hors agglo : 1,5 m minimum ; en agglo : 1 m.",
+      "image": "/images/cyclistes.png",
+      "tags": [
+        "cyclistes",
+        "depassement"
+      ]
+    },
+    {
+      "id": "br-033",
+      "theme": "autres_usagers",
+      "difficulty": 2,
+      "question": "En agglomération, l'écart minimum pour dépasser un cycliste est de :",
+      "choices": [
+        {
+          "key": "A",
+          "text": "50 cm"
+        },
+        {
+          "key": "B",
+          "text": "1 m"
+        },
+        {
+          "key": "C",
+          "text": "2 m"
+        }
+      ],
+      "answer": "B",
+      "explanation": "En ville, au moins 1 m entre vous et le cycliste.",
+      "image": "/images/cyclistes.png",
+      "tags": [
+        "cyclistes"
+      ]
+    },
+    {
+      "id": "br-034",
+      "theme": "autres_usagers",
+      "difficulty": 1,
+      "question": "Un piéton s'engage sur un passage piéton. Vous devez :",
+      "choices": [
+        {
+          "key": "A",
+          "text": "Klaxonner"
+        },
+        {
+          "key": "B",
+          "text": "Le laisser passer"
+        },
+        {
+          "key": "C",
+          "text": "Accélérer avant lui"
+        },
+        {
+          "key": "D",
+          "text": "Passer derrière lui"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Le piéton engagé ou manifestant son intention est prioritaire.",
+      "image": "/images/passage-pietons.png",
+      "tags": [
+        "pietons"
+      ]
+    },
+    {
+      "id": "br-035",
+      "theme": "autres_usagers",
+      "difficulty": 1,
+      "question": "Un véhicule de pompiers arrive sirène et gyrophare allumés. Vous :",
+      "choices": [
+        {
+          "key": "A",
+          "text": "L'ignorez"
+        },
+        {
+          "key": "B",
+          "text": "Facilitez son passage"
+        },
+        {
+          "key": "C",
+          "text": "Le suivez"
+        },
+        {
+          "key": "D",
+          "text": "Accélérez devant lui"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Les véhicules d'intérêt général prioritaire doivent pouvoir passer.",
+      "image": "/images/danger-autre.png",
+      "tags": [
+        "urgence"
+      ]
+    },
+    {
+      "id": "br-036",
+      "theme": "autres_usagers",
+      "difficulty": 2,
+      "question": "Près d'une école, à la sortie des enfants, le bon réflexe est :",
+      "choices": [
+        {
+          "key": "A",
+          "text": "Garder la même vitesse"
+        },
+        {
+          "key": "B",
+          "text": "Ralentir et anticiper"
+        },
+        {
+          "key": "C",
+          "text": "Klaxonner pour prévenir"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Les enfants sont imprévisibles : ralentissez fortement.",
+      "image": "/images/enfants.png",
+      "tags": [
+        "pietons",
+        "enfants"
+      ]
+    },
+    {
+      "id": "br-037",
+      "theme": "autres_usagers",
+      "difficulty": 2,
+      "question": "Un poids lourd a des angles morts :",
+      "choices": [
+        {
+          "key": "A",
+          "text": "Seulement derrière"
+        },
+        {
+          "key": "B",
+          "text": "Devant, derrière et sur les côtés"
+        },
+        {
+          "key": "C",
+          "text": "Aucun avec ses rétros"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Autour d'un camion il y a plusieurs angles morts : restez visible.",
+      "image": "/images/interdit-poids-lourds.png",
+      "tags": [
+        "poids_lourds"
+      ]
+    },
+    {
+      "id": "br-038",
+      "theme": "autres_usagers",
+      "difficulty": 3,
+      "question": "Un sas vélo devant un feu rouge est réservé :",
+      "choices": [
+        {
+          "key": "A",
+          "text": "Aux cyclistes"
+        },
+        {
+          "key": "B",
+          "text": "Aux motos"
+        },
+        {
+          "key": "C",
+          "text": "À tous les deux-roues motorisés"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Le sas vélo est réservé aux cycles ; les voitures s'arrêtent avant.",
+      "image": "/images/piste-cyclable.png",
+      "tags": [
+        "cyclistes"
+      ]
+    },
+    {
+      "id": "br-039",
+      "theme": "autres_usagers",
+      "difficulty": 3,
+      "question": "Un bus en agglomération signale qu'il quitte son arrêt. Vous devez :",
+      "choices": [
+        {
+          "key": "A",
+          "text": "Le dépasser vite"
+        },
+        {
+          "key": "B",
+          "text": "Faciliter sa sortie"
+        },
+        {
+          "key": "C",
+          "text": "Klaxonner"
+        }
+      ],
+      "answer": "B",
+      "explanation": "En agglo, on facilite le départ des bus qui signalent quitter l'arrêt.",
+      "image": "/images/arret-bus.png",
+      "tags": [
+        "bus"
+      ]
+    },
+    {
+      "id": "br-040",
+      "theme": "autres_usagers",
+      "difficulty": 2,
+      "question": "Une personne avec une canne blanche traverse. Vous :",
+      "choices": [
+        {
+          "key": "A",
+          "text": "Klaxonnez pour l'aider"
+        },
+        {
+          "key": "B",
+          "text": "Vous arrêtez et la laissez passer"
+        },
+        {
+          "key": "C",
+          "text": "Contournez rapidement"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Canne blanche : arrêtez-vous, laissez-la traverser en sécurité.",
+      "image": "/images/passage-pietons.png",
+      "tags": [
+        "pietons"
+      ]
+    },
+    {
+      "id": "br-041",
+      "theme": "reglementation",
+      "difficulty": 1,
+      "question": "Combien de points compte un permis classique hors probatoire ?",
+      "choices": [
+        {
+          "key": "A",
+          "text": "6"
+        },
+        {
+          "key": "B",
+          "text": "10"
+        },
+        {
+          "key": "C",
+          "text": "12"
+        },
+        {
+          "key": "D",
+          "text": "15"
+        }
+      ],
+      "answer": "C",
+      "explanation": "Le permis complet compte 12 points.",
+      "image": null,
+      "tags": [
+        "points"
+      ]
+    },
+    {
+      "id": "br-042",
+      "theme": "reglementation",
+      "difficulty": 1,
+      "question": "Au début du permis probatoire, on dispose de :",
+      "choices": [
+        {
+          "key": "A",
+          "text": "6 points"
+        },
+        {
+          "key": "B",
+          "text": "8 points"
+        },
+        {
+          "key": "C",
+          "text": "12 points"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Le jeune permis démarre avec 6 points.",
+      "image": null,
+      "tags": [
+        "points",
+        "probatoire"
+      ]
+    },
+    {
+      "id": "br-043",
+      "theme": "reglementation",
+      "difficulty": 2,
+      "question": "Le permis probatoire dure normalement :",
+      "choices": [
+        {
+          "key": "A",
+          "text": "1 an"
+        },
+        {
+          "key": "B",
+          "text": "3 ans"
+        },
+        {
+          "key": "C",
+          "text": "5 ans"
+        }
+      ],
+      "answer": "B",
+      "explanation": "3 ans en général, 2 ans après apprentissage anticipé (AAC).",
+      "image": null,
+      "tags": [
+        "probatoire"
+      ]
+    },
+    {
+      "id": "br-044",
+      "theme": "reglementation",
+      "difficulty": 2,
+      "question": "Vitesse max sur autoroute pour un jeune conducteur, par temps sec :",
+      "choices": [
+        {
+          "key": "A",
+          "text": "110 km/h"
+        },
+        {
+          "key": "B",
+          "text": "120 km/h"
+        },
+        {
+          "key": "C",
+          "text": "130 km/h"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Les jeunes conducteurs sont limités à 110 km/h sur autoroute.",
+      "image": "/images/limite-110.png",
+      "tags": [
+        "vitesse",
+        "probatoire"
+      ]
+    },
+    {
+      "id": "br-045",
+      "theme": "reglementation",
+      "difficulty": 2,
+      "question": "Le gilet de sécurité doit se trouver :",
+      "choices": [
+        {
+          "key": "A",
+          "text": "Dans le coffre"
+        },
+        {
+          "key": "B",
+          "text": "À portée de main dans l'habitacle"
+        },
+        {
+          "key": "C",
+          "text": "À la maison"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Le gilet doit être accessible sans sortir du véhicule.",
+      "image": null,
+      "tags": [
+        "equipement"
+      ]
+    },
+    {
+      "id": "br-046",
+      "theme": "reglementation",
+      "difficulty": 1,
+      "question": "La ceinture de sécurité est obligatoire :",
+      "choices": [
+        {
+          "key": "A",
+          "text": "À l'avant seulement"
+        },
+        {
+          "key": "B",
+          "text": "À l'avant et à l'arrière"
+        },
+        {
+          "key": "C",
+          "text": "Seulement sur autoroute"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Ceinture obligatoire pour tous les passagers, avant et arrière.",
+      "image": null,
+      "tags": [
+        "ceinture"
+      ]
+    },
+    {
+      "id": "br-047",
+      "theme": "reglementation",
+      "difficulty": 3,
+      "question": "Le conducteur est responsable du port de la ceinture des passagers :",
+      "choices": [
+        {
+          "key": "A",
+          "text": "Majeurs"
+        },
+        {
+          "key": "B",
+          "text": "Mineurs"
+        },
+        {
+          "key": "C",
+          "text": "Aucun"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Le conducteur répond des passagers mineurs non attachés.",
+      "image": null,
+      "tags": [
+        "ceinture",
+        "enfants"
+      ]
+    },
+    {
+      "id": "br-048",
+      "theme": "reglementation",
+      "difficulty": 2,
+      "question": "Pour conduire une voiture, il faut avoir sur soi :",
+      "choices": [
+        {
+          "key": "A",
+          "text": "Permis et certificat d'immatriculation"
+        },
+        {
+          "key": "B",
+          "text": "Juste son passeport"
+        },
+        {
+          "key": "C",
+          "text": "Rien"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Permis et carte grise doivent pouvoir être présentés.",
+      "image": null,
+      "tags": [
+        "documents"
+      ]
+    },
+    {
+      "id": "br-049",
+      "theme": "reglementation",
+      "difficulty": 3,
+      "question": "Le contrôle technique d'une voiture neuve se fait pour la première fois :",
+      "choices": [
+        {
+          "key": "A",
+          "text": "Après 1 an"
+        },
+        {
+          "key": "B",
+          "text": "Dans les 6 mois avant ses 4 ans"
+        },
+        {
+          "key": "C",
+          "text": "Après 10 ans"
+        }
+      ],
+      "answer": "B",
+      "explanation": "1er contrôle avant les 4 ans, puis tous les 2 ans.",
+      "image": null,
+      "tags": [
+        "controle_technique"
+      ]
+    },
+    {
+      "id": "br-050",
+      "theme": "mecanique_equipements",
+      "difficulty": 1,
+      "question": "Les feux de croisement servent :",
+      "choices": [
+        {
+          "key": "A",
+          "text": "À éclairer loin sans gêner les autres"
+        },
+        {
+          "key": "B",
+          "text": "Uniquement en ville le jour"
+        },
+        {
+          "key": "C",
+          "text": "À signaler une panne"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Les feux de croisement éclairent sans éblouir les autres usagers.",
+      "image": null,
+      "tags": [
+        "feux"
+      ]
+    },
+    {
+      "id": "br-051",
+      "theme": "mecanique_equipements",
+      "difficulty": 1,
+      "question": "Quand vous croisez un véhicule de nuit, vous passez :",
+      "choices": [
+        {
+          "key": "A",
+          "text": "En feux de route"
+        },
+        {
+          "key": "B",
+          "text": "En feux de croisement"
+        },
+        {
+          "key": "C",
+          "text": "Feux éteints"
+        }
+      ],
+      "answer": "B",
+      "explanation": "On quitte les pleins phares pour ne pas éblouir.",
+      "image": null,
+      "tags": [
+        "feux"
+      ]
+    },
+    {
+      "id": "br-052",
+      "theme": "mecanique_equipements",
+      "difficulty": 2,
+      "question": "La profondeur minimale légale des sculptures d'un pneu est de :",
+      "choices": [
+        {
+          "key": "A",
+          "text": "0,5 mm"
+        },
+        {
+          "key": "B",
+          "text": "1,6 mm"
+        },
+        {
+          "key": "C",
+          "text": "3 mm"
+        },
+        {
+          "key": "D",
+          "text": "5 mm"
+        }
+      ],
+      "answer": "B",
+      "explanation": "En dessous de 1,6 mm, le pneu est hors la loi.",
+      "image": null,
+      "tags": [
+        "pneus"
+      ]
+    },
+    {
+      "id": "br-053",
+      "theme": "mecanique_equipements",
+      "difficulty": 2,
+      "question": "La pression des pneus se vérifie de préférence :",
+      "choices": [
+        {
+          "key": "A",
+          "text": "Pneus froids"
+        },
+        {
+          "key": "B",
+          "text": "Après 200 km"
+        },
+        {
+          "key": "C",
+          "text": "Pneus chauds"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Contrôlez à froid pour une mesure fiable.",
+      "image": null,
+      "tags": [
+        "pneus"
+      ]
+    },
+    {
+      "id": "br-054",
+      "theme": "mecanique_equipements",
+      "difficulty": 2,
+      "question": "Des pneus sous-gonflés entraînent :",
+      "choices": [
+        {
+          "key": "A",
+          "text": "Moins de consommation"
+        },
+        {
+          "key": "B",
+          "text": "Plus de consommation et moins d'adhérence"
+        },
+        {
+          "key": "C",
+          "text": "Aucun effet"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Sous-gonflage : usure, surconsommation et tenue de route dégradée.",
+      "image": null,
+      "tags": [
+        "pneus"
+      ]
+    },
+    {
+      "id": "br-055",
+      "theme": "mecanique_equipements",
+      "difficulty": 1,
+      "question": "Le voyant rouge d'huile s'allume en roulant. Vous :",
+      "choices": [
+        {
+          "key": "A",
+          "text": "Continuez"
+        },
+        {
+          "key": "B",
+          "text": "Vous arrêtez dès que possible"
+        },
+        {
+          "key": "C",
+          "text": "Accélérez"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Voyant rouge = alerte grave, arrêt rapide en sécurité.",
+      "image": null,
+      "tags": [
+        "voyants"
+      ]
+    },
+    {
+      "id": "br-056",
+      "theme": "mecanique_equipements",
+      "difficulty": 3,
+      "question": "L'ABS sert principalement à :",
+      "choices": [
+        {
+          "key": "A",
+          "text": "Freiner moins fort"
+        },
+        {
+          "key": "B",
+          "text": "Éviter le blocage des roues au freinage"
+        },
+        {
+          "key": "C",
+          "text": "Augmenter la vitesse"
+        }
+      ],
+      "answer": "B",
+      "explanation": "L'ABS empêche le blocage des roues et garde la direction.",
+      "image": null,
+      "tags": [
+        "freinage"
+      ]
+    },
+    {
+      "id": "br-057",
+      "theme": "mecanique_equipements",
+      "difficulty": 3,
+      "question": "Les feux antibrouillard arrière s'utilisent :",
+      "choices": [
+        {
+          "key": "A",
+          "text": "Sous la pluie légère"
+        },
+        {
+          "key": "B",
+          "text": "Par brouillard ou neige"
+        },
+        {
+          "key": "C",
+          "text": "Toujours la nuit"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Antibrouillard arrière : brouillard ou chute de neige seulement.",
+      "image": null,
+      "tags": [
+        "feux",
+        "brouillard"
+      ]
+    },
+    {
+      "id": "br-058",
+      "theme": "securite",
+      "difficulty": 1,
+      "question": "Les distances de sécurité se mesurent souvent avec la règle des :",
+      "choices": [
+        {
+          "key": "A",
+          "text": "2 secondes"
+        },
+        {
+          "key": "B",
+          "text": "10 secondes"
+        },
+        {
+          "key": "C",
+          "text": "0,5 seconde"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Gardez au moins 2 secondes avec le véhicule de devant.",
+      "image": null,
+      "tags": [
+        "distance"
+      ]
+    },
+    {
+      "id": "br-059",
+      "theme": "securite",
+      "difficulty": 1,
+      "question": "Sur route mouillée, la distance de freinage :",
+      "choices": [
+        {
+          "key": "A",
+          "text": "Diminue"
+        },
+        {
+          "key": "B",
+          "text": "Augmente"
+        },
+        {
+          "key": "C",
+          "text": "Ne change pas"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Sur sol mouillé, il faut plus de distance pour s'arrêter.",
+      "image": "/images/chaussee-glissante.png",
+      "tags": [
+        "freinage",
+        "meteo"
+      ]
+    },
+    {
+      "id": "br-060",
+      "theme": "securite",
+      "difficulty": 2,
+      "question": "Si votre vitesse double, la distance de freinage est multipliée par environ :",
+      "choices": [
+        {
+          "key": "A",
+          "text": "2"
+        },
+        {
+          "key": "B",
+          "text": "4"
+        },
+        {
+          "key": "C",
+          "text": "10"
+        }
+      ],
+      "answer": "B",
+      "explanation": "La distance de freinage augmente avec le carré de la vitesse.",
+      "image": "/images/limite-90.png",
+      "tags": [
+        "freinage",
+        "vitesse"
+      ]
+    },
+    {
+      "id": "br-061",
+      "theme": "securite",
+      "difficulty": 2,
+      "question": "En cas d'aquaplaning, il faut :",
+      "choices": [
+        {
+          "key": "A",
+          "text": "Freiner fort"
+        },
+        {
+          "key": "B",
+          "text": "Lever le pied sans à-coups"
+        },
+        {
+          "key": "C",
+          "text": "Braquer brusquement"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Relâchez l'accélérateur et tenez le volant droit.",
+      "image": "/images/chaussee-glissante.png",
+      "tags": [
+        "meteo"
+      ]
+    },
+    {
+      "id": "br-062",
+      "theme": "securite",
+      "difficulty": 1,
+      "question": "Un enfant de moins de 10 ans à l'avant, c'est en principe :",
+      "choices": [
+        {
+          "key": "A",
+          "text": "Autorisé"
+        },
+        {
+          "key": "B",
+          "text": "Interdit sauf exceptions"
+        },
+        {
+          "key": "C",
+          "text": "Obligatoire"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Sauf cas prévus (siège dos à la route, pas de place arrière), c'est interdit.",
+      "image": null,
+      "tags": [
+        "enfants"
+      ]
+    },
+    {
+      "id": "br-063",
+      "theme": "securite",
+      "difficulty": 2,
+      "question": "Siège bébé dos à la route à l'avant : il faut :",
+      "choices": [
+        {
+          "key": "A",
+          "text": "Désactiver l'airbag passager"
+        },
+        {
+          "key": "B",
+          "text": "Laisser l'airbag actif"
+        },
+        {
+          "key": "C",
+          "text": "Mettre un coussin"
+        }
+      ],
+      "answer": "A",
+      "explanation": "L'airbag frontal doit être désactivé avec un siège dos à la route.",
+      "image": null,
+      "tags": [
+        "enfants",
+        "airbag"
+      ]
+    },
+    {
+      "id": "br-064",
+      "theme": "securite",
+      "difficulty": 3,
+      "question": "En cas de panne sur autoroute, les passagers doivent :",
+      "choices": [
+        {
+          "key": "A",
+          "text": "Rester dans la voiture"
+        },
+        {
+          "key": "B",
+          "text": "Se mettre derrière la glissière"
+        },
+        {
+          "key": "C",
+          "text": "Pousser la voiture"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Sortez côté droit et abritez-vous derrière la glissière.",
+      "image": "/images/autoroute.png",
+      "tags": [
+        "autoroute",
+        "panne"
+      ]
+    },
+    {
+      "id": "br-065",
+      "theme": "securite",
+      "difficulty": 2,
+      "question": "Le triangle de présignalisation se place à au moins :",
+      "choices": [
+        {
+          "key": "A",
+          "text": "5 m"
+        },
+        {
+          "key": "B",
+          "text": "30 m"
+        },
+        {
+          "key": "C",
+          "text": "200 m"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Posez-le au moins à 30 m, s'il n'y a pas de danger à le faire.",
+      "image": "/images/danger-autre.png",
+      "tags": [
+        "panne"
+      ]
+    },
+    {
+      "id": "br-066",
+      "theme": "securite",
+      "difficulty": 3,
+      "question": "La nuit, un animal surgit au loin. Le bon réflexe est :",
+      "choices": [
+        {
+          "key": "A",
+          "text": "Pleins phares et accélérer"
+        },
+        {
+          "key": "B",
+          "text": "Ralentir et passer en feux de croisement"
+        },
+        {
+          "key": "C",
+          "text": "Klaxonner fort"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Ralentissez : les pleins phares éblouissent et figent l'animal.",
+      "image": "/images/animaux-sauvages.png",
+      "tags": [
+        "animaux"
+      ]
+    },
+    {
+      "id": "br-067",
+      "theme": "environnement",
+      "difficulty": 1,
+      "question": "Pour consommer moins de carburant, il vaut mieux :",
+      "choices": [
+        {
+          "key": "A",
+          "text": "Accélérer fort"
+        },
+        {
+          "key": "B",
+          "text": "Conduire souplement"
+        },
+        {
+          "key": "C",
+          "text": "Rouler en sous-régime extrême"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Une conduite souple réduit consommation et pollution.",
+      "image": null,
+      "tags": [
+        "ecoconduite"
+      ]
+    },
+    {
+      "id": "br-068",
+      "theme": "environnement",
+      "difficulty": 1,
+      "question": "Laisser son moteur tourner à l'arrêt longtemps :",
+      "choices": [
+        {
+          "key": "A",
+          "text": "Est conseillé"
+        },
+        {
+          "key": "B",
+          "text": "Pollue inutilement"
+        },
+        {
+          "key": "C",
+          "text": "Recharge l'essence"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Moteur au ralenti à l'arrêt = pollution et carburant gaspillés.",
+      "image": null,
+      "tags": [
+        "ecoconduite"
+      ]
+    },
+    {
+      "id": "br-069",
+      "theme": "environnement",
+      "difficulty": 2,
+      "question": "La vignette Crit'Air indique :",
+      "choices": [
+        {
+          "key": "A",
+          "text": "Le niveau de pollution du véhicule"
+        },
+        {
+          "key": "B",
+          "text": "L'âge du conducteur"
+        },
+        {
+          "key": "C",
+          "text": "L'assurance"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Crit'Air classe les véhicules selon leurs émissions.",
+      "image": null,
+      "tags": [
+        "critair"
+      ]
+    },
+    {
+      "id": "br-070",
+      "theme": "environnement",
+      "difficulty": 2,
+      "question": "La climatisation en usage intensif :",
+      "choices": [
+        {
+          "key": "A",
+          "text": "Diminue la consommation"
+        },
+        {
+          "key": "B",
+          "text": "Augmente la consommation"
+        },
+        {
+          "key": "C",
+          "text": "N'a aucun effet"
+        }
+      ],
+      "answer": "B",
+      "explanation": "La clim augmente la consommation de carburant.",
+      "image": null,
+      "tags": [
+        "ecoconduite"
+      ]
+    },
+    {
+      "id": "br-071",
+      "theme": "environnement",
+      "difficulty": 2,
+      "question": "Un coffre de toit vide laissé en place :",
+      "choices": [
+        {
+          "key": "A",
+          "text": "Réduit la consommation"
+        },
+        {
+          "key": "B",
+          "text": "Augmente la consommation"
+        },
+        {
+          "key": "C",
+          "text": "Améliore l'aérodynamisme"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Il crée de la résistance à l'air : retirez-le après usage.",
+      "image": null,
+      "tags": [
+        "ecoconduite"
+      ]
+    },
+    {
+      "id": "br-072",
+      "theme": "environnement",
+      "difficulty": 3,
+      "question": "Lors d'un pic de pollution, les autorités peuvent :",
+      "choices": [
+        {
+          "key": "A",
+          "text": "Abaisser les vitesses maximales"
+        },
+        {
+          "key": "B",
+          "text": "Interdire tous les vélos"
+        },
+        {
+          "key": "C",
+          "text": "Supprimer les feux"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Lors de pics, des baisses de vitesse ou restrictions peuvent s'appliquer.",
+      "image": null,
+      "tags": [
+        "pollution"
+      ]
+    },
+    {
+      "id": "br-073",
+      "theme": "environnement",
+      "difficulty": 1,
+      "question": "Pour économiser, en approche d'un feu rouge, on :",
+      "choices": [
+        {
+          "key": "A",
+          "text": "Accélère puis freine"
+        },
+        {
+          "key": "B",
+          "text": "Lève le pied tôt"
+        },
+        {
+          "key": "C",
+          "text": "Change de voie"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Anticiper et lever le pied tôt économise carburant et freins.",
+      "image": null,
+      "tags": [
+        "ecoconduite"
+      ]
+    },
+    {
+      "id": "br-074",
+      "theme": "environnement",
+      "difficulty": 3,
+      "question": "Rouler à 130 au lieu de 120 km/h sur autoroute :",
+      "choices": [
+        {
+          "key": "A",
+          "text": "Consomme plus"
+        },
+        {
+          "key": "B",
+          "text": "Consomme moins"
+        },
+        {
+          "key": "C",
+          "text": "Ne change rien"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Plus de vitesse = plus de résistance à l'air = plus de carburant.",
+      "image": "/images/limite-130.png",
+      "tags": [
+        "ecoconduite",
+        "vitesse"
+      ]
+    },
+    {
+      "id": "br-075",
+      "theme": "premiers_secours",
+      "difficulty": 1,
+      "question": "Le numéro d'urgence européen est le :",
+      "choices": [
+        {
+          "key": "A",
+          "text": "15"
+        },
+        {
+          "key": "B",
+          "text": "17"
+        },
+        {
+          "key": "C",
+          "text": "112"
+        },
+        {
+          "key": "D",
+          "text": "911"
+        }
+      ],
+      "answer": "C",
+      "explanation": "Le 112 fonctionne dans toute l'Union européenne.",
+      "image": null,
+      "tags": [
+        "alerte"
+      ]
+    },
+    {
+      "id": "br-076",
+      "theme": "premiers_secours",
+      "difficulty": 1,
+      "question": "Le SAMU se joint au :",
+      "choices": [
+        {
+          "key": "A",
+          "text": "15"
+        },
+        {
+          "key": "B",
+          "text": "18"
+        },
+        {
+          "key": "C",
+          "text": "17"
+        }
+      ],
+      "answer": "A",
+      "explanation": "15 : SAMU ; 18 : pompiers ; 17 : police.",
+      "image": null,
+      "tags": [
+        "alerte"
+      ]
+    },
+    {
+      "id": "br-077",
+      "theme": "premiers_secours",
+      "difficulty": 1,
+      "question": "Les trois actions clés face à un accident sont :",
+      "choices": [
+        {
+          "key": "A",
+          "text": "Protéger, Alerter, Secourir"
+        },
+        {
+          "key": "B",
+          "text": "Filmer, Partager, Partir"
+        },
+        {
+          "key": "C",
+          "text": "Crier, Courir, Attendre"
+        }
+      ],
+      "answer": "A",
+      "explanation": "PAS : Protéger, Alerter, Secourir.",
+      "image": "/images/secours.png",
+      "tags": [
+        "pas"
+      ]
+    },
+    {
+      "id": "br-078",
+      "theme": "premiers_secours",
+      "difficulty": 2,
+      "question": "Un motard blessé est allongé avec son casque. Vous :",
+      "choices": [
+        {
+          "key": "A",
+          "text": "Retirez le casque"
+        },
+        {
+          "key": "B",
+          "text": "Ne retirez pas le casque"
+        },
+        {
+          "key": "C",
+          "text": "Le secouez"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Ne retirez pas le casque : risque pour la colonne vertébrale.",
+      "image": null,
+      "tags": [
+        "moto"
+      ]
+    },
+    {
+      "id": "br-079",
+      "theme": "premiers_secours",
+      "difficulty": 2,
+      "question": "Une victime ne respire plus. Il faut :",
+      "choices": [
+        {
+          "key": "A",
+          "text": "Attendre les secours sans rien faire"
+        },
+        {
+          "key": "B",
+          "text": "Alerter et commencer un massage cardiaque"
+        },
+        {
+          "key": "C",
+          "text": "Lui donner à boire"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Alertez, massez, et utilisez un défibrillateur si disponible.",
+      "image": null,
+      "tags": [
+        "rcp"
+      ]
+    },
+    {
+      "id": "br-080",
+      "theme": "premiers_secours",
+      "difficulty": 2,
+      "question": "Une victime inconsciente qui respire se met en :",
+      "choices": [
+        {
+          "key": "A",
+          "text": "Position latérale de sécurité"
+        },
+        {
+          "key": "B",
+          "text": "Position assise"
+        },
+        {
+          "key": "C",
+          "text": "Position debout"
+        }
+      ],
+      "answer": "A",
+      "explanation": "La PLS protège les voies respiratoires.",
+      "image": null,
+      "tags": [
+        "pls"
+      ]
+    },
+    {
+      "id": "br-081",
+      "theme": "premiers_secours",
+      "difficulty": 3,
+      "question": "En cas d'hémorragie, le premier geste est :",
+      "choices": [
+        {
+          "key": "A",
+          "text": "Appuyer fort sur la plaie"
+        },
+        {
+          "key": "B",
+          "text": "Laver à l'eau"
+        },
+        {
+          "key": "C",
+          "text": "Faire marcher la victime"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Comprimez directement la plaie pour arrêter le saignement.",
+      "image": null,
+      "tags": [
+        "hemorragie"
+      ]
+    },
+    {
+      "id": "br-082",
+      "theme": "premiers_secours",
+      "difficulty": 3,
+      "question": "Sur les lieux d'un accident, votre véhicule doit être :",
+      "choices": [
+        {
+          "key": "A",
+          "text": "Garé au milieu de la route"
+        },
+        {
+          "key": "B",
+          "text": "Garé après l'accident, feux de détresse"
+        },
+        {
+          "key": "C",
+          "text": "Laissé moteur allumé devant"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Garez-vous en sécurité au-delà de l'accident, warnings allumés.",
+      "image": null,
+      "tags": [
+        "protection"
+      ]
+    },
+    {
+      "id": "br-083",
+      "theme": "premiers_secours",
+      "difficulty": 2,
+      "question": "Un défibrillateur automatique (DAE) peut être utilisé :",
+      "choices": [
+        {
+          "key": "A",
+          "text": "Seulement par un médecin"
+        },
+        {
+          "key": "B",
+          "text": "Par tout le monde"
+        },
+        {
+          "key": "C",
+          "text": "Seulement par les pompiers"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Le DAE guide l'utilisateur vocalement : tout le monde peut s'en servir.",
+      "image": null,
+      "tags": [
+        "rcp"
+      ]
+    }
+  ],
+  "image_credits": "Panneaux et pictogrammes : Wikimedia Commons (domaine public / licences libres), copies locales dans public/images/."
+}

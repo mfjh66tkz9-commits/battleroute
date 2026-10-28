@@ -1,0 +1,4 @@
+node_modules
+dist
+.vercel
+server/node_modules
